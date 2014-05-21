@@ -1,0 +1,13 @@
+body {
+	background-color: black; 
+	color: silver;
+	font-family: "Arial";
+}
+
+h1 {
+	color: white;
+}
+
+.warning {
+	color: red;
+}

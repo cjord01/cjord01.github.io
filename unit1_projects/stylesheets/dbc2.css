@@ -1,0 +1,50 @@
+
+   
+#content {
+      width: 1000px; 
+      height: 700px;
+}
+
+#left {
+   width: 100px; 
+   height: 100%; 
+   float: left; 
+   background-color: grey
+}
+
+#right {
+   margin-left: 100px; 
+   height: 100%; 
+   background-color: lightgrey;
+}
+
+body {
+	padding: 15px;
+   background-color: turquoise;
+}
+
+p {
+	padding:  5px;
+}
+
+.sidebar{
+	padding: 5px;
+	border: 3px solid black;
+}
+
+.align-center{
+	text-align: center;
+	font-weight: bold;
+	border: 1px solid black;
+}
+.white{
+	color:white;
+	font-weight: bold;
+}
+
+.relative{
+   position: relative;
+   right: 60 px;
+   top: 200px;
+   border: 2px;
+}
