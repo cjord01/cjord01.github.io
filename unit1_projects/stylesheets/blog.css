@@ -16,3 +16,11 @@ body {
 	font-family: "Courier"; font-family: "Futura";
 	padding: 15px;
 }
+
+a {
+	color: white;
+}
+
+a:hover {
+  color: #7B833B;
+}

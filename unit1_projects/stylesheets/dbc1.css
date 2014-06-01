@@ -8,6 +8,15 @@ h1 {
 	color: white;
 }
 
+a {
+	color: white;
+}
+
+a:hover {
+  color: #7B833B;
+}
+
 .warning {
 	color: red;
 }
+
