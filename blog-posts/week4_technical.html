@@ -14,24 +14,33 @@
 			<em>Week #4: Technical</em>
 		</h2>
 
-		<h3>
-		</h3>
+		<h3>The Map Method</h3>
 		<p>
+			Here’s what ruby-doc.org has to say about the map method: <em>Returns a new array with the result of running block once for every element in enum.</em>
 		</p>
 		<p>
+			<strong>In other words, map allows you to create a new array from an old one.</strong>
 		</p>
 		<p> 
+			Here’s how the syntax would look:
 		</p>
 		<p>
-		</p>
-
-		<h3>
-		</h3>
-		<p>
+			<img src="images/map_syntax.jpg" alt="Map Syntax">
 		</p>
 		<p>
+			Here are a few examples of how you might use it:
 		</p>
 		<p>
+			<img src="images/example1.jpg" alt="Example">
+		</p>
+		<p>
+			The first time I used the map method I was trying to sort an array of elements. The problem was that the array included both strings and integers so I couldn’t just slap a .sort on there and call it a day. I needed to go through all of the elements in the array and convert each of them to a string before I could .sort the array. My code ended up looking like this:
+		</p>
+		<p>
+			<img src="images/example2.jpg" alt="Example">
+		</p>
+		<p>
+			NOTE: this example worked fine for the array that I needed to sort but remember that once an integer has been converted to a string, it doesn’t sort the same way. For example, the string “10” is going to come before the string “2”. 
 		</p>
 
 		<h3>
