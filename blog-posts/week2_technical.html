@@ -6,83 +6,88 @@
 	</head>
 
 	<body>
-		<h1>
-			<strong>Clay's DBC Blog</strong>
-		</h1>
-		
-		<h2>
-			<em>Week #2: Technical</em>
-		</h2>
-
-		<h3>
-			<strong>Best Practices: Classes vs. IDs</strong>
-		</h3>
-		<p>
-			I chose to focus my blog entry on best practices associated with using Classes vs. IDs because I felt like this was the area I was the most clueless. After a little research, I&#39m now much less clueless (about classes and IDs). Let&#39s start with a few definitions:
-		</p>
-		<ul>
-			<li>
-				Classes and IDs are used in &#34CSS&#34. <strong>CSS</strong> is a styling language used to create the look and formatting of webpages (mostly used in conjunction with HTML).
-			</li>
-			<li>
-				Classes and IDs are &#34Selectors&#34. <strong>Selectors</strong> are used to select the elements of the HTML file that you want to style. Selector syntax looks like this:
-			</li>
-			<img src="images/selector_syntax.jpg" alt="Selctor Syntax">
-			<li>
-				Classes are identified by a &#39.&#39
-			</li>
-			<li>
-				IDs are identified by a &#39#&#39
-			</li>
-		</ul>
-		<p> 
-		</p>
-	
-
-		<h3>
-			Classes vs IDs
-		</h3>
-		<p>
-			Both Classes and IDs are used to define a special case for an element. The main difference is that IDs only apply to one element of a webpage while lots of elements can have the same Class. For example there is only one footer in a webpage but there are often many paragraphs. So... the footer would be an ID and the paragraphs would be a Class. 
-		</p>
-		<p>
-			<strong>Since a class can be used many times and an ID can only be used once, you should use classes for items that will be used multiple times.</strong>
-		</p>
-		<p>
-			Here&#39s a way to help you remember! 
-		</p>
-		<ul>
-			<li>
-				An &#34ID&#34 (like a driver&#39s license) is unique to one person.
-			</li>
-			<li>
-				When you take a &#34class&#34 there are multiple students enrolled. 
-			</li>
-		</ul>
-		<p>
-			The rule of thumb is to ask yourself if you think you might need to use the selector for another element on your site. If the answer is yes then go with a class. 
-		</p>
-
-		<h3>
-			Examples:
-		</h3>
-		<p>
-			Here is an example of an ID being used. Notice that when the ID is used in an HTML document, the syntax is &#39id=&#34name&#34&#39. 
-		</p>
-		<img src="images/id_syntax.jpg" alt="ID Syntax">
-		<p>
-			And here is an example of a Class being used. Notice that when the Class is used in an HTML document, the syntax is &#39class=&#34name&#34&#39. 
-		</p>
-		<img src="images/class_syntax.jpg" alt="Class Syntax">
-		<p>
-		</p>
-		<p>
-		</p>
-		<footer>
+		<div id="sidebar">
+			<h1>
+				<strong>Clay's DBC Blog</strong>
+			</h1>
+			<img src="images/profile_pic.jpg" alt="Clayton Jordan or Clay Jordan" width="225" height = "300" class="image">
+			<footer>
 				<a href="mailto:clayjchicago@gmail.com"><img src="images/email.png" alt="Email"></a>
 				<a href="https://www.facebook.com/clayton.jordan" target="_blank"><img src="images/facebook.png" alt = “facebook”></a>
 				<a href="https://twitter.com/RealClayJordan" target="_blank"><img src="images/twitter.png" talt = “twitter”></a>
 				<a href="https://www.youtube.com/user/cjord01/videos" target="_blank"><img src="images/youtube.png" alt = “youtube”></a>
-		</footer>
+			</footer>
+		</div>
+		
+		<div id="main">
+			<h2>
+				<em>Week #2: Technical</em>
+			</h2>
+
+			<h3>
+				<strong>Best Practices: Classes vs. IDs</strong>
+			</h3>
+			<p>
+				I chose to focus my blog entry on best practices associated with using Classes vs. IDs because I felt like this was the area I was the most clueless. After a little research, I&#39m now much less clueless (about classes and IDs). Let&#39s start with a few definitions:
+			</p>
+			<ul>
+				<li>
+					Classes and IDs are used in &#34CSS&#34. <strong>CSS</strong> is a styling language used to create the look and formatting of webpages (mostly used in conjunction with HTML).
+				</li>
+				<li>
+					Classes and IDs are &#34Selectors&#34. <strong>Selectors</strong> are used to select the elements of the HTML file that you want to style. Selector syntax looks like this:
+				</li>
+				<img src="images/selector_syntax.jpg" alt="Selctor Syntax">
+				<li>
+					Classes are identified by a &#39.&#39
+				</li>
+				<li>
+					IDs are identified by a &#39#&#39
+				</li>
+			</ul>
+			<p> 
+			</p>
+		
+
+			<h3>
+				Classes vs IDs
+			</h3>
+			<p>
+				Both Classes and IDs are used to define a special case for an element. The main difference is that IDs only apply to one element of a webpage while lots of elements can have the same Class. For example there is only one footer in a webpage but there are often many paragraphs. So... the footer would be an ID and the paragraphs would be a Class. 
+			</p>
+			<p>
+				<strong>Since a class can be used many times and an ID can only be used once, you should use classes for items that will be used multiple times.</strong>
+			</p>
+			<p>
+				Here&#39s a way to help you remember! 
+			</p>
+			<ul>
+				<li>
+					An &#34ID&#34 (like a driver&#39s license) is unique to one person.
+				</li>
+				<li>
+					When you take a &#34class&#34 there are multiple students enrolled. 
+				</li>
+			</ul>
+			<p>
+				The rule of thumb is to ask yourself if you think you might need to use the selector for another element on your site. If the answer is yes then go with a class. 
+			</p>
+
+			<h3>
+				Examples:
+			</h3>
+			<p>
+				Here is an example of an ID being used. Notice that when the ID is used in an HTML document, the syntax is &#39id=&#34name&#34&#39. 
+			</p>
+			<img src="images/id_syntax.jpg" alt="ID Syntax">
+			<p>
+				And here is an example of a Class being used. Notice that when the Class is used in an HTML document, the syntax is &#39class=&#34name&#34&#39. 
+			</p>
+			<img src="images/class_syntax.jpg" alt="Class Syntax">
+			<p>
+			</p>
+			<p>
+			</p>
+		</div>
 	</body>
 </html>
