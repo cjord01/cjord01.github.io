@@ -6,8 +6,8 @@ h1 {
 
 #sidebar {
 	position: fixed;
-	width: 20%;
-	padding: 25px 5% 25px 5%;
+	width: 25%;
+	padding: 20px 5% 20px 5%;
 	float: left;
 	border-right: 1px solid white;
 }
@@ -20,10 +20,6 @@ h1 {
 h2 {
 	color: #ecf0f1;
 	font-family: "Courier"; 
-	text-align: center;
-}
-
-h3 {
 	text-align: center;
 }
 
