@@ -10,13 +10,13 @@
 			<h1>
 				<strong>Clay's DBC Blog</strong>
 			</h1>
-			<img src="images/profile_pic.jpg" alt="Clayton Jordan or Clay Jordan" width="225" height = "300" class="image">
-			<footer>
-				<a href="mailto:clayjchicago@gmail.com"><img src="images/email.png" alt="Email"></a>
-				<a href="https://www.facebook.com/clayton.jordan" target="_blank"><img src="images/facebook.png" alt = “facebook”></a>
-				<a href="https://twitter.com/RealClayJordan" target="_blank"><img src="images/twitter.png" talt = “twitter”></a>
-				<a href="https://www.youtube.com/user/cjord01/videos" target="_blank"><img src="images/youtube.png" alt = “youtube”></a>
-			</footer>
+			<img id="profile" src="images/profile_pic.jpg" alt="Clayton Jordan or Clay Jordan" class="image">
+			<div>
+				<a href="mailto:clayjchicago@gmail.com"><img id="icons" src="images/email.png" alt="Email"></a>
+				<a href="https://www.facebook.com/clayton.jordan" target="_blank"><img id="icons" src="images/facebook.png" alt = “facebook”></a>
+				<a href="https://twitter.com/RealClayJordan" target="_blank"><img id="icons" src="images/twitter.png" talt = “twitter”></a>
+				<a href="https://www.youtube.com/user/cjord01/videos" target="_blank"><img id="icons" src="images/youtube.png" alt = “youtube”></a>
+			</div>
 		</div>
 
 		<div id="main">
@@ -26,16 +26,29 @@
 			</h2>
 
 			<h3>
+				Instance Variables vs. Class Variables
 			</h3>
 			<p>
+				You&#39ve probably noticed how there are times when you see variables with an &#39@&#39 at the beginning and other times you see a variable with &#39@@&#39 at the beginning. What&#39s up with that?
 			</p>
 			<p>
+				Variables that start with one @ sign like this &#8212 &#39<em>@variable</em>&#39 &#8212 are called <strong>Instance Variables</strong>.
 			</p>
 			<p> 
+				Variables that start with two @ signs like this &#8212 &#39<em>@@variable</em>&#39 &#8212 are called <strong>Class Variables</strong>.
+			</p>
+			<p>
+				Both these variables are used while defining a method within a class. The difference is that Instance Variables are specific to each individual instance of a class, and Class Variables are specific to the class itself. That means that if you change the Class Variable then it affects all the instances of that class. 
+			</p>
+			<p>
+				Take a look at below examples. To the left is an Instance Variable and to the right is a Class Variable. Both look the same until you get to line #17. 
+			</p>
+			<p>
+				<img id="img1" src="images/instance_variable.jpg" alt="Instance Variable" class="image">
+				<img id="img2" src="images/class_variable.jpg" alt="Class Variable" class="image">
 			</p>
 			<p>
 			</p>
-
 			<h3>
 			</h3>
 			<p>
