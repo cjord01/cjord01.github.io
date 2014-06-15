@@ -74,14 +74,3 @@ footer {
 ul {
 	list-style: none;
 }
-
-#splash {
-    background-color: #000000;
-    background-image: url(http://cjord01.github.io/unit1_projects/images/wireframing.jpg);
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-    position: fixed;
-    top: 0; right: 0; bottom: 0; left: 0;
-    z-index: 99999;
-}
