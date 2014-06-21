@@ -26,20 +26,52 @@
 			</h2>
 
 			<h3>
+				Variable Scope
 			</h3>
 			<p>
+				Variable scope determines where a variable can be accessed. There are four variable scopes in Ruby - local, global, instance, and class. You can tell what type of variable you are dealing with by looking at how the variable name starts:
 			</p>
+			<ul>
+				<li><strong>Local Variables</strong> - start with a lower case letter.</li>
+				<li><strong>Instance Variables</strong> - start with &#39@&#39. </li>
+				<li><strong>Class Variables</strong> - start with &#39@@&#39. </li>
+				<li><strong>Global Variables</strong> - start with &#39$&#39.</li>
+			</ul>
 			<p>
+				You can also find out what a variable is by using the &#39defined?&#39 method. 
 			</p>
 			<p> 
-			</p>
-			<p>
+				<img src="images/variable_scope.jpg" alt="Variable Scope">
 			</p>
 
-			<h3>
-			</h3>
+			<h4>
+				Local Variables
+			</h4>
 			<p>
+				Local variables are what you&#39re most used to seeing. They are &#39local&#39 to the code in which they are defined. For example, a variable defined within a method is a local variable and cannot be accessed outside of that method. 
 			</p>
+
+			<h4>
+				Global Variables
+			</h4>
+			<p>
+				Global variables are accessible from anywhere in the program. Global variables are not used very often and that is why you probably haven’t seen them much. 
+			</p>
+
+			<h4>
+				Class Variables
+			</h4>
+			<p>
+				A class variable is used within a class. It is shared amongst the class and all of it&#39s descendants.
+			</p>
+
+			<h4>
+				Instance Variables
+			</h4>
+			<p>
+				An instance variable is used within a class. It is not shared by the class&#39s descendants. 
+			</p>
+
 			<p>
 			</p>
 			<p>
