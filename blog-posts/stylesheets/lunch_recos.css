@@ -6,9 +6,13 @@ h1 {
 	font-size: 3em;
 }
 
-.title {
+/*.title {
 	background-color: #2C3E50;
 	color: #5D3E3C;
+}*/
+
+.scroll {
+	overflow: scroll;
 }
 
 #sidebar {
