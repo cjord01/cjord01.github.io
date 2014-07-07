@@ -41,7 +41,7 @@ h3 {
 }
 
 h4 {
-	font-size: 1.2em;
+	font-size: 1.5em;
 	margin: auto;
 	padding: auto;
 	border: auto;
@@ -52,7 +52,13 @@ body {
 	color: #ecf0f1;
 	font-family: "Courier"; 
 	position: relative;
-	font-size: 1.0em;
+	font-size: 1.2em;
+	margin: auto;
+	padding: auto;
+	border: auto;
+}
+
+p {
 	margin: auto;
 	padding: auto;
 	border: auto;
