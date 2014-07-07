@@ -6,6 +6,11 @@ h1 {
 	font-size: 3em;
 }
 
+.title {
+	background-color: #2C3E50;
+	color: #5D3E3C;
+}
+
 #sidebar {
 	position: fixed;
 	width: 20%;
@@ -22,6 +27,9 @@ h1 {
 #restaurant {
 	padding-top: 20px;
 	padding-bottom: 20px;
+	margin-left: 5%;
+	margin-right: 5%;
+	text-align: center;
 }
 
 h2 {
