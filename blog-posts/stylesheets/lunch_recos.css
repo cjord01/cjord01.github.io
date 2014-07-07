@@ -1,0 +1,60 @@
+h1 {
+	color: #ecf0f1;
+	font-family: "Courier"; 
+	text-align: center;
+	position: relative;
+}
+
+#sidebar {
+	position: fixed;
+	width: 20%;
+	padding: 4% 2% 4% 2%;
+	float: left;
+}
+
+#main {
+	padding: 0 0 0 25px;
+	margin: 0 5% 0 30%;
+	position: relative;
+}
+
+h2 {
+	color: #ecf0f1;
+	font-family: "Courier"; 
+	text-align: center;
+	position: relative;
+}
+
+body {
+	background-color: #2c3e50;
+	color: #ecf0f1;
+	font-family: "Courier"; 
+	padding: 15px;
+	position: relative;
+}
+
+a {
+	color: white;
+	position: relative;
+}
+
+a:hover {
+  color: #7B833B;
+}
+
+#profile {
+	width: 75%;
+}
+
+/*#icons {
+	width: 25px;
+}*/
+
+#img1 {
+	width: 45%;
+}
+
+#img2 {
+	float: right;
+	width: 46%;
+}
