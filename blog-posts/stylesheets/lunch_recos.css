@@ -3,6 +3,7 @@ h1 {
 	font-family: "Courier"; 
 	text-align: center;
 	position: relative;
+	font-size: 3em;
 }
 
 #sidebar {
@@ -57,6 +58,7 @@ body {
 	padding: auto;
 	border: auto;
 	margin-left: 10%;
+	margin-right: 10%;
 }
 
 p {
